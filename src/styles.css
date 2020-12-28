@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body{
+    /* height: 1800px; */
+}
+
+.div-sidebar{
+    background-color: #4995B3;
+    /* height: 1800px; */
+}
+
+.div-principal{
+    /* height: 1800px; */
+}
+
+.div-logo{
+    background-color: #FFFF;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-menu{
+    height: 50px;/* 
+    background-color: #4995B3; */
+}
+
+.btn-block{
+    width: 106%;
+}
+
+.fa-accusoft{
+    color: #B35B6C;
+}
+
+.sous-partie{
+    background-image: url(./assets/images/image88.png);
+}
+
+.div-apprenant-connecte{
+    height: 300px;
+
+}
+
+.fa-info-circle{
+    color: #B35B6C;
+}
+
+.accordion{
+    width: 20%;
+
+}
+
+.a{
+    color: white;
+}
