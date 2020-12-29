@@ -20,6 +20,8 @@ import { ListProfilsComponent } from './profils/list-profils/list-profils.compon
 import { AddProfilComponent } from './profils/add-profil/add-profil.component';
 import { PromosComponent } from './promos/promos.component';
 import { ProfilSortiesComponent } from './profil-sorties/profil-sorties.component';
+import { ReferentielsComponent } from './referentiels/referentiels.component';
+import { ConnexionComponent } from './connexion/connexion.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { ProfilSortiesComponent } from './profil-sorties/profil-sorties.componen
     ListProfilsComponent,
     AddProfilComponent,
     PromosComponent,
-    ProfilSortiesComponent
+    ProfilSortiesComponent,
+    ReferentielsComponent,
+    ConnexionComponent
   ],
   imports: [
     BrowserModule,

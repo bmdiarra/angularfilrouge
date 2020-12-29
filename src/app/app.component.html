@@ -1,7 +1,8 @@
+        <!-- <app-connexion></app-connexion> -->
         <!-- le grand row contenant tout -->
         <div class="row">
             <div class="col-md-2 div-sidebar me-2 mt-2">
-                <div class="div-logo m-5">
+                <div class="div-logo m-5 d-flex justify-content-center align-items-center">
                     <img src="./assets/images/logosonatelacademy3.png" class="m-4">
                 </div>
                 
@@ -19,7 +20,7 @@
                         <button type = "button" class = "btn btn-primary m-1" routerLink="/promos"> <i class="fab fa-accusoft"></i> Promos
                         </button>
 
-                        <button type = "button" class = "btn btn-primary m-1"> <i class="fab fa-accusoft"></i> Referentiels
+                        <button type = "button" class = "btn btn-primary m-1" routerLink="/referentiels"> <i class="fab fa-accusoft"></i> Referentiels
                         </button>
 
                         <button type = "button" class = "btn btn-primary m-1" routerLink="/groupescompetences"><i class="fab fa-accusoft"></i> Groupe de competences
@@ -60,8 +61,7 @@
                 </div>
 
                 <div class="sous-second-menu mt-5">
-                    <!-- <app-promos></app-promos> -->
-                    <!-- <app-users></app-users> -->
+                    
                     <router-outlet></router-outlet>
                 </div>
 

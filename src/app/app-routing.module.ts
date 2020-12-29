@@ -1,3 +1,4 @@
+import { ReferentielsComponent } from './referentiels/referentiels.component';
 import { CompetencesComponent } from './groupes-competences/competences/competences.component';
 import { GroupesCompetencesComponent } from './groupes-competences/groupes-competences.component';
 import { PromosComponent } from './promos/promos.component';
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: 'users', component: UsersComponent},
   {path: 'groupescompetences', component: GroupesCompetencesComponent},
   {path: 'competences', component: CompetencesComponent},
-  {path: 'profilssortie', component: ProfilSortiesComponent}
+  {path: 'profilssortie', component: ProfilSortiesComponent},
+  {path: 'referentiels', component: ReferentielsComponent}
 ];
 
 @NgModule({
