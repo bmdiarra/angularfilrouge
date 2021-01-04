@@ -6,6 +6,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { UsersComponent } from './users/users.component';
 import { ProfilSortiesComponent } from './profil-sorties/profil-sorties.component';
+import { ProfilsComponent } from './profils/profils.component';
 
 const routes: Routes = [
   {path: 'promos', component: PromosComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: 'groupescompetences', component: GroupesCompetencesComponent},
   {path: 'competences', component: CompetencesComponent},
   {path: 'profilssortie', component: ProfilSortiesComponent},
-  {path: 'referentiels', component: ReferentielsComponent}
+  {path: 'referentiels', component: ReferentielsComponent},
+  {path: 'profils', component: ProfilsComponent}
 ];
 
 @NgModule({
