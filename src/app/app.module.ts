@@ -22,6 +22,8 @@ import { PromosComponent } from './promos/promos.component';
 import { ProfilSortiesComponent } from './profil-sorties/profil-sorties.component';
 import { ReferentielsComponent } from './referentiels/referentiels.component';
 import { ConnexionComponent } from './connexion/connexion.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,8 @@ import { ConnexionComponent } from './connexion/connexion.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, HttpClientModule,
+    FormsModule, ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
