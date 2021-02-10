@@ -24,6 +24,7 @@ import { ReferentielsComponent } from './referentiels/referentiels.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { HttpClientModule } from '@angular/common/http';
     PromosComponent,
     ProfilSortiesComponent,
     ReferentielsComponent,
-    ConnexionComponent
+    ConnexionComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

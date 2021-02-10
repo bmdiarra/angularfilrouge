@@ -8,7 +8,7 @@ import { JwtHelperService } from '@auth0/angular-jwt';
   selector: 'app-connexion',
   templateUrl: './connexion.component.html',
   styleUrls: ['./connexion.component.css']
-})
+}) 
 export class ConnexionComponent implements OnInit {
 
   constructor(private route: Router, private authService: AuthService) { }
